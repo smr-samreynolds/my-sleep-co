@@ -1,0 +1,203 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Temporary Styles */
+body {  
+  border: none;
+}
+
+html {
+  border: none;
+}
+
+header [class*="col-"] {
+  padding: 0;
+}
+
+/* Universal Styles and Utility Class */
+.padded { padding: 5%;}
+.padded-sm { padding: 1rem;}
+.padded-xs { padding: 0.5rem;}
+.bg-dark { 
+  background-color: #192b37;
+  color: white;
+}
+
+.featured-text { color: #f8bc29;}
+.white-text { color: white;}
+
+.font-weight-light { font-weight: 200;}
+.font-weight-normal { font-weight: 400;}
+.font-weight-extra-bold { font-weight: 800;}
+
+.text-left { text-align: left;}
+.text-center { text-align: center;}
+.text-right { text-align: right;}
+
+.small-text { font-size: 1.5rem;}
+.medium-text {
+  font-size: 2rem;
+  line-height: 1.1;
+}
+.big-text { font-size: 4.5rem;}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: rgb(120, 120, 125);
+}
+.quote-icon {
+  font-size: 6rem;
+  display: inline-block;
+  color: rgb(120, 120, 125);
+  line-height: 1;
+}
+
+/* image styles */
+.bg-image {
+  background-image: url(/images/the-sleep-co-pillow.jpg);
+  background-size: cover;
+  min-height: 30vh;
+}
+.bg-sheets {
+  background-image: url(/images/the-sleep-co-sheets.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 55vw;
+}
+.bg-bed {
+  background-image: url(/images/the-sleep-co-bed.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 60vh;
+}
+.bg-pug {
+  background-image: url(/images/the-sleep-co-pug.jpg);
+  background-size: cover;
+  background-position: 50% 36%;
+  min-height: 60vh;
+}
+.bg-pillow {
+  background-image: url(/images/the-sleep-co-pillow.jpg);
+  background-size: cover;
+  background-position: 50% 60%;
+  min-height: 70vh;
+}
+
+/* typography styles */
+body {
+  font-family: "Catamaran", sans-serif;
+}
+
+.fas {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  transition: 0.5s;
+}
+a:hover { color: #f8bc29;}
+
+h2 { font-size: 3.3rem;}
+h3 { font-size: 3.3rem;}
+p { font-size: 1.2rem;}
+p:last-child { margin-bottom: 0;}
+
+.header-banner h2 {
+  font-size: 7.2rem;
+  font-weight: 800;
+  line-height: 5.2rem;
+}
+
+.header-banner h1 {
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+
+/* Nav bar */
+header { padding: 0 3%;}
+
+header div { padding: 0;}
+
+header h2 {
+  font-size: 1.5rem;
+  padding-left: 0.5rem; 
+}
+
+header a {
+  text-decoration: none;
+  border-bottom: 0;
+  padding: 0.5rem;
+  display: inline-block;
+}
+
+nav a:hover {
+  color:#f8bc29;
+}
+
+/* Contact Form */
+.contact-form {
+  padding: 5% 12%;
+  font-family: "Lato";
+  color: #192b37;
+  background-color: #f8bc29;
+}
+
+.contact-form h1 {
+  margin-bottom: 1rem;
+}
+
+.contact-form form {
+  width: 75vw;
+  height: 50vh;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: 2px solid #192b37;
+  outline: none;
+  font-family: inherit;
+  font-size: 0.9rem;
+}
+
+.contact-form form input:focus,
+.contact-form form textarea:focus {
+  border-color: #edf6f9;
+}
+
+.contact-form textarea {
+  min-height: 6rem;
+}
+
+.contact-form label {
+  margin-top: 1rem;
+  display: block;
+  color: #edf6f9;
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+}
+
+.contact-form button {
+  background-color: #192b37;
+  color: #f8bc29;
+  border: none;
+  padding: 0.5rem 2rem;
+  letter-spacing: 0.05rem;
+  margin: 0.5rem 0;
+}
+
+.contact-form button:hover {
+  background-color:#edf6f9;
+  color: #192b37;
+}
