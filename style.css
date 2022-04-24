@@ -160,19 +160,25 @@ nav a:hover {
 /* Contact Form */
 .contact-form {
   padding: 5% 12%;
-  font-family: "Lato";
   color: #192b37;
   background-color: #f8bc29;
+  max-height: fit-content;
 }
 
 .contact-form h1 {
   margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.contact-form h2 {
+  text-transform: lowercase;
+  font-weight: bold;
+  padding-left: 0;
 }
 
-.contact-form form {
+/* .contact-form form {
   width: 75vw;
   height: 50vh;
-}
+} */
 
 .contact-form form input,
 .contact-form form textarea {
@@ -198,11 +204,13 @@ nav a:hover {
   margin-top: 1rem;
   display: block;
   color: #fff;
-  font-weight: bold;
+  font-weight: normal;
   letter-spacing: 0.05rem;
 }
 
 .contact-form button {
+  font-family: 'Catamaran', sans-serif;
+  font-weight: bold;
   background-color: #192b37;
   color: #f8bc29;
   border: none;
