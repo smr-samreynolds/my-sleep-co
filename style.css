@@ -26,6 +26,16 @@ header [class*="col-"] {
   color: white;
 }
 
+.tall-30  {  min-height: 30vh;}
+.tall-40  {  min-height: 40vh;}
+.tall-50  {  min-height: 50vh;}
+.tall-55  {  min-height: 55vh;}
+.tall-60  {  min-height: 60vh;}
+.tall-70  {  min-height: 70vh;}
+.tall-80  {  min-height: 80vh;}
+.tall-90  {  min-height: 90vh;}
+.tall-100 {  min-height: 100vh;}
+
 .featured-text { color: #f8bc29;}
 .white-text { color: white;}
 
@@ -59,45 +69,39 @@ header [class*="col-"] {
 .bg-image {
   background-image: url(/images/the-sleep-co-pillow.jpg);
   background-size: cover;
-  min-height: 30vh;
 }
+
 .bg-sheets {
   background-image: url(/images/the-sleep-co-sheets.jpg);
   background-position: center;
   background-size: cover;
-  min-height: 55vw;
 }
 .bg-bed {
   background-image: url(/images/the-sleep-co-bed.jpg);
   background-size: cover;
   background-position: center;
-  min-height: 60vh;
 }
 .bg-pug {
   background-image: url(/images/the-sleep-co-pug.jpg);
   background-size: cover;
   background-position: 50% 36%;
-  min-height: 60vh;
 }
 .bg-pillow {
   background-image: url(/images/the-sleep-co-pillow.jpg);
   background-size: cover;
   background-position: 50% 60%;
-  min-height: 70vh;
 }
 
 .bg-cat {
   background-image: url('https://source.unsplash.com/uy5t-CJuIK4');
   background-size: cover;
   background-position: 50% 36%;
-  min-height: 60vh;
 }
 
 .bg-tea {
   background-image: url('https://source.unsplash.com/m0l5J8Lqnzo');
   background-size: cover;
   background-position: 50% 36%;
-  min-height: 60vh;
 }
 
 /* typography styles */
